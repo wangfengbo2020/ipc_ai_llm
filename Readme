@@ -1,0 +1,40 @@
+1. Purpose
+   This project was set up is totally because what I am intereted in the IPC, AI and LLM field. Another is I want to use the AI tools to help me finish most of the coding task.
+
+2. What will included in the repo
+   The target is to enable a IPC camera, which could be installed, live-view, settings, event trigger and OTA, so the following conponent should be included:
+   * Hardware
+   * Firmware
+   * Backend
+   * App 
+
+2.1 Hardware
+   THe hardware is based on the RK1106B, below is a link that you could as a refernce.
+   https://detail.tmall.com/item.htm?abbucket=11&id=802849760756&ns=1&pisk=fdEKKr4U31fhVov9WU_iZ_7WZeWiJueFtWyXqbcHP5FTFfxlLDbr27hTaX0nAXx-28FzZ7ePLYG7N7hu-Nj0LJorVsxRmi2Ej6cfDWHIFR6S3Yk5vGbGdJorV_pMVZjYLSZG5gcSFA6tEYDWP7MBCAGZEYMQNXg61xHqV0i7NcssevMSdHMI5hGZdbMWVbs61xHWOeM7NR6tUbwRwf9IZ3Ukm6vUeBXB23EtC_lLpaxoBlDKTjeQv3t5Uv3KGJG1iPAS4VwryuJy24eQu7kbOB1m88aT6vnRjeibBzNxQksD9Az3C-c_HL-zKDH-l0g9F3wtYf3_VmsX6Az_KzZU9LKSLkqmyjuOF3uofo0blWpP3RiIF7u4qs-EO8w40rmAjeibBzNYyg50modtYIcxEe6OBU8rRAzEKmF-waRekAhcpgLyzVWZBjXOBU8rRAkti9BJzUuNQ&priceTId=2150427717332135604942247e74a8&skuId=5467919717394&spm=a21n57.1.item.26.22f8523c1L4Srs&utparam=%7B%22aplus_abtest%22%3A%22bb81891f205df29d246727396df098e7%22%7D&xxc=taobaoSearch
+
+   I will use the EVB with wifi and ethnet directly, will not design hardware by myself.
+
+
+2.2 Firmware 
+   In this part, I will add a basic hm_sdk.h and an application. Use C/C++.
+
+   | Applicaiton |
+   -----------------------------------
+   | hm_sdk.h    |
+   -----------------------------------
+   | System (boot,kernel,filesystem) |
+
+2.3 Backend
+   Based on Aliyun or AWS to provide an entire service for the app side and the product side.
+   Python and C#
+
+2.4 App
+   The PC application should be supported at the beginning, then I will take the Android and iOS into consideration.
+
+3. Schedule
+   This project should be started at March 2025, rough to estimate, 9 months.
+
+
+Any good suggestion, please feel free to contract me with the following information:
+Email: wangfengbo2020@163.com 
+Tel: +8618822453808 
